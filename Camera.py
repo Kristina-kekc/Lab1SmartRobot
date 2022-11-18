@@ -11,11 +11,14 @@ class Camera:
     def setMode(self):
         print("Set camera mode")
 
-    def record(self):
+    def startRecording(self):
         print("Start Recording")
 
-    def focus(self):
-        print("Adjust focus")
+    def stopRecording(self):
+        print("Stop Recording")
 
-    def transferInput(self):
-        print("Transfer recording")
+    def focusIn(self):
+        print("Adjust focus (In)")
+
+    def focusOut(self):
+        print("Adjust focus (Out)")

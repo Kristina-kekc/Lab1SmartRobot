@@ -5,10 +5,13 @@ class Lights:
     def __init__(self,color) -> None:
       self._color = color
 
-    def turnOn(self):
+    def Light(self, color):
+        print ("Choose light color {color}")
+
+    def On(self):
         print("Turn lights on")
 
-    def turnOff(self):
+    def Off(self):
         print("Turn lights off")
 
     def flashing(self):
