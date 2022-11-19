@@ -7,4 +7,4 @@ class Sensor:
        self._input = input
 
     def scan(self):
-        print ("Scan barcode)")
+        print ("Scan barcode")
