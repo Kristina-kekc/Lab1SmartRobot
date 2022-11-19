@@ -1,6 +1,18 @@
 """
 This is Kiva Robot 
 """
+
+
+from Breaks import *
+from Camera import *
+from Engine import *
+from LiftingScrew import *
+from Lights import *
+from Scanner import *
+from Speaker import *
+from TaskManager import *
+from Wheels import *
+ 
 class Robot:
 
     def __init__(self, serialNum, year, model) -> None:
