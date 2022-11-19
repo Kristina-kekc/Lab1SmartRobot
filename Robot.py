@@ -98,8 +98,12 @@ def stateEntered(self, stateno):
         self._year = year
         self._model = model
         
-    def Main(self):
-        print ("Stop robot movement")
+  #  def Main(self):
+  #      print ("Stop robot movement")
 
-    def systemCheck(self):
-        print("Full System Check")
+  #  def systemCheck(self):
+   #     print("Full System Check")
+
+if __name__ == "__Robot__":
+    m = Robot()
+    m.run()
